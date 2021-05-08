@@ -1,0 +1,9 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --main-text-color: #000000;
+  --secondary-text-color: #ffffff;
+  --paragraph-text-color: #757575;
+  --main-background-color: #ffffff;
+  --accent-color: #2196f3;
+}
