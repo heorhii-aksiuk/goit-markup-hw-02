@@ -37,7 +37,8 @@ body {
   line-height: 1.19;
 }
 
-.logo-accent {
+.logo-accent,
+.current {
   color: var(--accent-color);
 }
 
