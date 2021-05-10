@@ -88,6 +88,7 @@ body {
 .hero-button {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -160,4 +161,34 @@ body {
 .address:focus,
 .address:hover {
   color: var(--accent-color);
+}
+
+/* =======PORTFOLIO SECTION======= */
+
+.filter-button {
+  font-family: var(--main-font);
+  color: var(--main-text-color);
+  background-color: var(--secondary-background-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+}
+
+.portfolio-heading {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-paragraph {
+  color: var(--paragraph-text-color);
+  font-size: 16px;
+  line-height: 1.87;
 }

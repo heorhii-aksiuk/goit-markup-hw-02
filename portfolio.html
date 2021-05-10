@@ -41,11 +41,11 @@
         <section>
             <h1 hidden>Наши работы</h1> <!--Спрятать с помощью стилей и убрать атрибут hidden!-->
                 <ul class="list">
-                    <li><button type="button">Все</button></li>
-                    <li><button type="button">Веб-сайты</button></li>
-                    <li><button type="button">Приложения</button></li>
-                    <li><button type="button">Дизайн</button></li>
-                    <li><button type="button">Маркетинг</button></li>
+                    <li><button class="filter-button" type="button">Все</button></li>
+                    <li><button class="filter-button" type="button">Веб-сайты</button></li>
+                    <li><button class="filter-button" type="button">Приложения</button></li>
+                    <li><button class="filter-button" type="button">Дизайн</button></li>
+                    <li><button class="filter-button" type="button">Маркетинг</button></li>
                 </ul>
                 <ul class="list">
                     <li>
@@ -53,8 +53,8 @@
                             <img src="./images/portfolio/tekhnokryak.jpg" 
                                  alt="Страница сайта на экране ноутбука"
                                  width="370" height="294">
-                            <h2>Технокряк</h2>
-                            <p>Веб-сайт</p>
+                            <h2 class="portfolio-heading">Технокряк</h2>
+                            <p class="portfolio-paragraph">Веб-сайт</p>
                         </a>
                     </li>
                     <li>
@@ -62,8 +62,8 @@
                             <img src="./images/portfolio/new-orlean-vs-golden-star.jpg" 
                                  alt="Постер с изображением игры двух баскетболистов"
                                  width="370" height="294">
-                            <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-                            <p>Дизайн</p>
+                            <h2 class="portfolio-heading">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                            <p class="portfolio-paragraph">Дизайн</p>
                         </a>
                     </li>
                     <li>
@@ -71,8 +71,8 @@
                             <img src="./images/portfolio/seafood.jpg" 
                                  alt="Логотип ресторана морепродуктов"
                                  width="370" height="294">
-                            <h2>Ресторан <span lang="en">Seafood</span></h2>
-                            <p>Приложение</p>
+                            <h2 class="portfolio-heading">Ресторан <span lang="en">Seafood</span></h2>
+                            <p class="portfolio-paragraph">Приложение</p>
                         </a>
                     </li>
                     <li>
@@ -80,8 +80,8 @@
                             <img src="./images/portfolio/prime.jpg" 
                                  alt="Студийные наушники"
                                  width="370" height="294">
-                            <h2>Проект <span lang="en">Prime</span></h2>
-                            <p>Маркетинг</p>
+                            <h2 class="portfolio-heading">Проект <span lang="en">Prime</span></h2>
+                            <p class="portfolio-paragraph">Маркетинг</p>
                         </a>
                     </li>
                     <li>
@@ -89,8 +89,8 @@
                             <img src="./images/portfolio/boxes.jpg" 
                                  alt="Две коробки"
                                  width="370" height="294">
-                            <h2>Проект <span lang="en">Boxes</span></h2>
-                            <p>Приложение</p>
+                            <h2 class="portfolio-heading">Проект <span lang="en">Boxes</span></h2>
+                            <p class="portfolio-paragraph">Приложение</p>
                         </a>
                     </li>
                     <li>
@@ -98,8 +98,8 @@
                             <img src="./images/portfolio/inspiration-has-no-borders.jpg" 
                                  alt="Монитор с изображением сайта"
                                  width="370" height="294">
-                            <h2 lang="en">Inspiration has no Borders</h2>
-                            <p>Веб-сайт</p>
+                            <h2 class="portfolio-heading" lang="en">Inspiration has no Borders</h2>
+                            <p class="portfolio-paragraph">Веб-сайт</p>
                         </a>
                     </li>
                     <li>
@@ -107,8 +107,8 @@
                             <img src="./images/portfolio/limited-edition.jpg" 
                                  alt="Журнал в развернутом виде"
                                  width="370" height="294">
-                            <h2>Издание <span lang="en">Limited Edition</span></h2>
-                            <p>Дизайн</p>
+                            <h2 class="portfolio-heading">Издание <span lang="en">Limited Edition</span></h2>
+                            <p class="portfolio-paragraph">Дизайн</p>
                         </a>
                     </li>
                     <li>
@@ -116,8 +116,8 @@
                             <img src="./images/portfolio/lab.jpg" 
                                  alt="Бирка с изображением логотипа"
                                  width="370" height="294">
-                            <h2>Проект <span lang="en">LAB</span></h2>
-                            <p>Маркетинг</p>
+                            <h2 class="portfolio-heading">Проект <span lang="en">LAB</span></h2>
+                            <p class="portfolio-paragraph">Маркетинг</p>
                         </a>
                     </li>
                     <li>
@@ -125,8 +125,8 @@
                             <img src="./images/portfolio/growing-business.jpg" 
                                  alt="Ноутбук за которым работают"
                                  width="370" height="294">
-                            <h2 lang="en">Growing Business</h2>
-                            <p>Приложение</p>
+                            <h2 class="portfolio-heading" lang="en">Growing Business</h2>
+                            <p class="portfolio-paragraph">Приложение</p>
                         </a>
                     </li>
                 </ul>
@@ -135,20 +135,20 @@
     </main>
     
     <!-- Футер сайта -->
-    <footer>
-        <a class="logo link" href="./index.html" lang="en"><span class="logo-accent">Web</span>Studio</a>
-        <address>
+    <footer class="main-footer">
+        <a class="footer-logo link" href="./index.html" lang="en"><span class="logo-accent">Web</span>Studio</a>
+        <address class="footer-contacts">
             <ul class="list">
                 <li>
-                    <a class="link" href="https://goo.gl/maps/T2K9LCpTaU9NKCbx8" 
-                       target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
+                    <a class="address link" href="https://goo.gl/maps/T2K9LCpTaU9NKCbx8" target="_blank"
+                        rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
                 </li>
                 <li>
-                    <a class="link" href="mailto:info@devstudio.com" 
-                       target="_blank" rel="noopener noreferrer">info@example.com</a>
+                    <a class="contacts link" href="mailto:info@devstudio.com" target="_blank"
+                        rel="noopener noreferrer">info@example.com</a>
                 </li>
                 <li>
-                    <a class="link" href="tel:+380961111111">+38 099 111 11 11</a>
+                    <a class="contacts link" href="tel:+380961111111">+38 099 111 11 11</a>
                 </li>
             </ul>
         </address>
