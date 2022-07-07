@@ -1,2 +1,2 @@
 # goit-markup-hw-02
-Репозиторий домашнего задания 02. Основы CSS (Селекторы и цвет, оформление текста)
+GoIT. Markup. Homework #2 (CSS basics)
